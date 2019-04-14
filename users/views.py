@@ -17,7 +17,7 @@ def register(request):
     else:
         form = UserRegisterForm()
         template_name = 'users/register.html'
-        return render(request,template_name, {'form':form})
+    return render(request,template_name, {'form':form})
 
 
 @login_required

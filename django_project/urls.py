@@ -29,7 +29,7 @@ urlpatterns = [
 
     path('profile/', user_views.profile, name='profile'),
 
-    path('blog/', include('blog.urls')),
+    path('', include('blog.urls')),
 
 ]
 
